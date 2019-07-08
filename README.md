@@ -20,12 +20,12 @@ ps - Process Status
 4. Open interactive shell to interact with Redis running on redisTest container
 docker exec -it redisTest sh
 
-Below is the screenshot of verifying whether Redis is running and verifying value of key being set from RediGo.go file
-	I have used RediGo package for communicating with Redis from Go
-		The program connects to Redis, 
-		creates a counter key in Redis with a value of 1, 
-		reads and prints it, increments it, 
-		reads and prints it
+Verify whether Redis is running and verifying value of key being set from RediGo.go file
+I have used RediGo package for communicating with Redis from Go
+	The program connects to Redis, 
+	creates a counter key in Redis with a value of 1, 
+	reads and prints it, increments it, 
+	reads and prints it
 ￼
 
 5. Exit the container and clean up
