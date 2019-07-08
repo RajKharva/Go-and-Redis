@@ -3,7 +3,7 @@ Communicate with Redis (containerized using Docker) from Go
 
 
 Below are the steps that I took for resolving the task:
-1. Installed Docker
+1. Install Docker
 
 2. Ran below command to to start a new container with name “redisTest” 
 -d - detaches the container and runs it in background
